@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
+  <!-- Navbar start -->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
@@ -22,18 +23,21 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">shoes</a>
+                  <a class="nav-link" href="#shoes">shoes</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Backpack</a>
+                  <a class="nav-link" href="#backpack">Backpack</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact us</a>
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
                 </li>
               </ul>
             </div>
         </nav>
     </div>
+    <!-- navbar end -->
+
+    <!-- carousel start -->
     <div class="container">
         <div id="carouselExampleControls" class="carousel slide orange-bg" data-ride="carousel">
             <div class="carousel-inner">
@@ -87,6 +91,123 @@
             </a>
           </div>
     </div>
+    <!-- carousel end -->
+
+    <!-- catagory start -->
+    <div class="container catagory">
+      <div class="row ">
+        <div class="col-md-4">
+          <div class="cat1 d-flex justify-content-between align-items-center">
+            <h1>Watch</h1>
+          <img src="image/categories/watch.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cat2 d-flex justify-content-between align-items-center">
+            <h1>Beg</h1>
+          <img src="image/categories/bag.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="cat3 d-flex justify-content-between align-items-center">
+            <h1>Shoes</h1>
+          <img src="image/categories/shoes.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- catagory end -->
+
+    <!-- shoes start -->
+    <div class="container shoes" id="shoes">
+      <h2>Shoes</h2>
+      <div class="card-deck">
+        <div class="card">
+          <img src="image/shoes/shoe-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <h5>$120</h5>
+            <button class="buy-now-button">Buy Now >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/shoes/shoe-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nike 360</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.  Try this one.</p>
+            <h5>$320</h5>
+            <button class="buy-now-button">Buy Now >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/shoes/shoe-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Red Airmax</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+            <h5>$350</h5>
+            <button class="buy-now-button">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- shoes end -->
+
+    <!-- backpack start -->
+    <div class="container" id="backpack">
+      <h2>Backpack</h2>
+      <div class="card-deck">
+        <div class="card">
+          <img src="image/bags/bag-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$199</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-button">Buy Now >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/bags/bag-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Blue Backpack</h5>
+            <h5>$180</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-button">Buy Now >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/bags/bag-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Black Backpack</h5>
+            <h5>$169</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer ">
+            <button class="buy-now-button">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- backpack end -->
+
+    <!-- subscribe start -->
+    <div class="container orange-bg d-flex justify-content-center align-items-center" id="subscribe">
+      <div>
+        <h3>LET'S STAY IN TOUCH</h3>
+      <h6>Get updates on sales, specials and more</h6>
+      <input class="form-control" type="text">
+      <button class="buy-now-button">SUBMIT</button>
+      </div>
+    </div>
+    <!-- subscribe end -->
+    
+    <footer>
+      <small>© 2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
